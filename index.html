@@ -104,7 +104,7 @@
               </span> -->
               <!-- Video Link. -->
               <span class="link-block">
-                <a href=""
+                <a href="https://youtu.be/nsZrmM7CJB0?si=IJnfWH_Vf_UW2JoF"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
@@ -207,37 +207,36 @@
       <div class="column is-full-width">
         <h2 class="title is-3">Dynamic reconstruction</h2>
 
-        <!-- Re-rendering. -->
-        <h3 class="title is-4"><a href="https://hoi4d.github.io">HOI4D</a></h3>
-        <div class="columns">
-          <div class="column has-text-centered">
+        <h3 class="title is-4"><a href="https://hoi4d.github.io" target="_blank">HOI4D</a></h3>
+        <div class="columns full-width-columns">
+          <div class="column has-text-centered is-flex is-justify-content-center is-align-items-center" style="height: 40px;">
             <div class="is-flex is-align-items-center is-justify-content-center">
-              <figure class="image is-24x24" style="margin-right: 8px;">
-                <img src="static/images/head-mounted.jpg" alt="Icon 1">
+              <figure class="image" style="margin-right: 8px;">
+                <img src="static/images/head-mounted.jpg" alt="Icon 1" style="width: 31px; height: 31px; object-fit: contain;">
               </figure>
               <span>Input</span>
             </div>
           </div>
-          <div class="column has-text-centered">
+          <div class="column has-text-centered is-flex is-justify-content-center is-align-items-center" style="height: 40px;">
             <div class="is-flex is-align-items-center is-justify-content-center">
-              <figure class="image is-24x24" style="margin-right: 8px;">
-                <img src="static/images/cam.jpg" alt="Icon 2">
+              <figure class="image" style="margin-right: 8px;">
+                <img src="static/images/cam.png.webp" alt="Icon 2" style="width: 28px; height: 28px; object-fit: contain;">
               </figure>
               <span>Fixed Cam</span>
             </div>
           </div>
-          <div class="column has-text-centered">
+          <div class="column has-text-centered is-flex is-justify-content-center is-align-items-center" style="height: 40px;">
             <div class="is-flex is-align-items-center is-justify-content-center">
-              <figure class="image is-24x24" style="margin-right: 8px;">
-                <img src="static/images/panoptic.png" alt="Icon 3">
+              <figure class="image" style="margin-right: 8px;">
+                <img src="static/images/panoptic.png" alt="Icon 3" style="width: 25px; height: 25px; object-fit: contain;">
               </figure>
               <span>Panoptic-view</span>
             </div>
           </div>
-          <div class="column has-text-centered">
+          <div class="column has-text-centered is-flex is-justify-content-center is-align-items-center" style="height: 40px;">
             <div class="is-flex is-align-items-center is-justify-content-center">
-              <figure class="image is-24x24" style="margin-right: 8px;">
-                <img src="static/images/free-view.png" alt="Icon 4">
+              <figure class="image" style="margin-right: 8px;">
+                <img src="static/images/drone.png" alt="Icon 4" style="width: 32px; height: 32px; object-fit: contain;">
               </figure>
               <span>Free-view</span>
             </div>
@@ -257,8 +256,8 @@
                     type="video/mp4">
           </video>
         </div>
-        <!--/ Re-rendering. -->
-        <h3 class="title is-4"><a href="https://epic-kitchens.github.io/2024">EPIC-KITCHENS</a></h3>
+        
+        <h3 class="title is-4"><a href="https://epic-kitchens.github.io/2024" target="_blank">EPIC-KITCHENS</a></h3>
         <div class="content has-text-centered">
           <video id="replay-video" autoplay muted loop playsinline width="100%">
             <source src="./static/videos/ek_p03.mp4"
@@ -269,10 +268,57 @@
                     type="video/mp4">
           </video>
         </div>
-        <h2 class="title is-3">Novel View Synthesis</h2>
-        <img src="./static/images/nvs.png" alt="Description of image" style="width:100%;">
-        <div class="subtitle has-text-centered" style="width: 80%; display: block; margin: 0 auto;">
-          EgoGaussian outperforms previous Dynamic Gaussian methods.
+        
+        <h2 class="title is-3">Comparison</h2>
+        <div class="columns full-width-columns">
+          <div class="column has-text-centered is-flex is-justify-content-center is-align-items-center" style="height: 20px;">
+            <div class="is-flex is-align-items-center is-justify-content-center">
+              <span>Input</span>
+            </div>
+          </div>
+          <div class="column has-text-centered is-flex is-justify-content-center is-align-items-center" style="height: 20px;">
+            <div class="is-flex is-align-items-center is-justify-content-center">
+              <span>EgoGaussian</span>
+            </div>
+          </div>
+          <div class="column has-text-centered is-flex is-justify-content-center is-align-items-center" style="height: 20px;">
+            <div class="is-flex is-align-items-center is-justify-content-center">
+              <span>
+                <a href="https://guanjunwu.github.io/4dgs/" target="_blank">4DGS</a>
+                <span style="font-size: 75%;">(Wu et al., 2023)</span>
+              </span>
+            </div>
+          </div>
+          <div class="column has-text-centered is-flex is-justify-content-center is-align-items-center" style="height: 20px;">
+            <div class="is-flex is-align-items-center is-justify-content-center">
+              <span>
+                <a href="https://ingra14m.github.io/Deformable-Gaussians/" target="_blank">Deformable-3DGS</a>
+                <span style="font-size: 75%;">(Yang et al., 2023)</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="content has-text-centered">
+          <video id="replay-video" autoplay muted loop playsinline width="100%">
+            <source src="./static/videos/baseline_video0.mp4"
+                    type="video/mp4">
+          </video>
+          <video id="replay-video" autoplay muted loop playsinline width="100%">
+            <source src="./static/videos/baseline_video1.mp4"
+                    type="video/mp4">
+          </video>
+          <video id="replay-video" autoplay muted loop playsinline width="100%">
+            <source src="./static/videos/baseline_video6.mp4"
+                    type="video/mp4">
+          </video>
+          <video id="replay-video" autoplay muted loop playsinline width="100%">
+            <source src="./static/videos/baseline_p03.mp4"
+                    type="video/mp4">
+          </video>
+          <video id="replay-video" autoplay muted loop playsinline width="100%">
+            <source src="./static/videos/baseline_p32.mp4"
+                    type="video/mp4">
+          </video>
         </div>
       </div>
     </div>
@@ -285,12 +331,12 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <!-- <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
-}</code></pre> -->
+    <pre><code>@article{zhang2024egogaussian,
+  title={EgoGaussian: Dynamic Scene Understanding from Egocentric Video with 3D Gaussian Splatting},
+  author={Zhang, Daiwei and Li, Gengyan and Li, Jiajie and Bressieux, Micka{\"e}l and Hilliges, Otmar and Pollefeys, Marc and Van Gool, Luc and Wang, Xi},
+  journal={arXiv preprint arXiv:2406.19811},
+  year={2024}
+}</code></pre>
   </div>
 </section>
 

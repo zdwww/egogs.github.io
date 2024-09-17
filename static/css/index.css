@@ -155,3 +155,20 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+.column-with-border {
+  border: 1px solid #ddd; /* Adjust the color and style as needed */
+  padding: 10px; /* Optional: Add some padding inside the columns */
+}
+
+.full-width-columns {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.full-width-columns > .column {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+
