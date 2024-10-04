@@ -164,6 +164,7 @@
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Dynamic reconstruction</h2>
+        <p>Our compact scene representation enables the rendering of novel views of the dynamic scene from arbitrary viewpoints.</p><br>
         <h3 class="title is-4"><a href="https://hoi4d.github.io" target="_blank">HOI4D</a></h3>
         <div class="columns full-width-columns">
           <div class="column has-text-centered is-flex is-justify-content-center is-align-items-center" style="height: 40px;">
@@ -290,6 +291,17 @@
             <source src="./static/videos/baseline_p32.mp4"
                     type="video/mp4">
           </video>
+        </div>
+        <h2 class="title is-3">Approach</h2>
+        <h3 class="title is-4">Static Reconstruction</h3>
+        <img src="./static/images/static_reconstruct.png" alt="Description of image" style="width:100%;">
+        <div class="has-text-centered" style="width: 80%; display: block; margin: 0 auto;">
+          We use this clip-level online learning pipeline to jointly reconstruct and segment dynamic object from static background.
+        </div><br>
+        <h3 class="title is-4">Dynamic Reconstruction</h3>
+        <img src="./static/images/dynamic_reconstruct.png" alt="Description of image" style="width:100%;">
+        <div class="has-text-centered" style="width: 80%; display: block; margin: 0 auto;">
+          We use a sequential pipeline with regularization from previous frames, allowing us to estimate object poses and iteratively refine their shapes simultaneously.
         </div>
       </div>
     </div>
